@@ -2,3 +2,6 @@
   - name: install apache2
     apt: name=apache2 update_cache=yes state=latest
     become: true
+
+  - name: install openjdk
+    apt: name=openjdk update_cache=yes state=present
