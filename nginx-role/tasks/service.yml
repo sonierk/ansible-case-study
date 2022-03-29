@@ -1,0 +1,4 @@
+---
+  - name: starting nginx service
+    service: name=nginx state=restarted
+    become: true

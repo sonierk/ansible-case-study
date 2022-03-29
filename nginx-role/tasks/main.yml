@@ -1,0 +1,6 @@
+---
+# tasks file for apache2-role
+
+- include: install.yml
+- include: configure.yml
+- include: service.yml
